@@ -1,0 +1,43 @@
+:root {
+  /* Font scale heading */
+
+  /* Font scale body text */
+
+  /* Spacing */
+  --spacing-10: 0.625rem;
+  --spacing-15: 0.9375rem;
+  --spacing-20: 1.25rem;
+  --spacing-30: 1.875rem;
+  --spacing-40: 2.5rem;
+  --spacing-80: 5rem;
+
+  /* Aliases */
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+.heading-h1 {
+}
+
+h2,
+.heading-2 {
+}
+
+h3,
+.heading-3 {
+}
+
+.text-lead {
+}
+
+.text-small {
+}
+
+article {
+  max-width: 65ch;
+  margin: 5rem auto;
+}
