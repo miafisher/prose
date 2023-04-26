@@ -1,7 +1,13 @@
 :root {
   /* Font scale heading */
+  --fs-h1: 4.209rem;
+  --fs-h2: 3.157rem;
+  --fs-h3: 2.369rem;
+  --fs-h4: 1.777rem;
 
   /* Font scale body text */
+  --fs-body: 1.333rem;
+  --fs-small: 0.75rem;
 
   /* Spacing */
   --spacing-10: 0.625rem;
@@ -12,29 +18,49 @@
   --spacing-80: 5rem;
 
   /* Aliases */
+  --heading-display: var(--fs-h1);
+  --heading-2: var(--fs-h2);
+  --heading-3: var(--fs-h3);
+  --heading-4: var(--fs-h4);
+  --body-lead: var(--fs-body);
+  --body-small: var(--fs-small);
 }
 
 body {
   font-family: system-ui, sans-serif;
   line-height: 1.6;
+  margin-left: var(--spacing-10);
+  margin-right: var(--spacing-10);
 }
 
 h1,
 .heading-h1 {
+  font-size: var(--heading-display);
+  margin-bottom: var(--spacing-40);
+  line-height: 1.1;
 }
 
 h2,
 .heading-2 {
+  font-size: var(--heading-2);
+  margin-bottom: var(--spacing-10);
+  line-height: 1.1;
 }
 
 h3,
 .heading-3 {
+  font-size: var(--heading-3);
+  margin-bottom: var(--spacing-10);
 }
 
 .text-lead {
+  font-size: var(--body-lead);
+  margin-bottom: var(--spacing-20);
 }
 
 .text-small {
+  font-size: var(--body-small);
+  margin-bottom: var(--spacing-80);
 }
 
 article {
